@@ -143,3 +143,5 @@ ESME SUDRIA LYON
 
 feedback for the course : 
 - give access of simple tutorials to students (even though they can find it on the web)
+
+![alt text](https://s2.qwant.com/thumbr/0x0/d/f/fa1cd741075a3c8e4168c7dd5156d1895fccf0dd0b9ba18e0dfcdb502ff9dc/tenor.gif?u=https%3A%2F%2Fmedia.tenor.com%2Fimages%2F93fc348f799d1a1dd2d1d156ed6dee89%2Ftenor.gif&q=0&b=1&p=0&a=1)
