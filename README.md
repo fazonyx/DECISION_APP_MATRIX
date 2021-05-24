@@ -1,18 +1,28 @@
 # DECISION_APP_MATRIX
 This project is a tool developed for Eisenhower's matrix users. 
-This app is based on this matrix that looks like this : 
-[matrix](https://s1.qwant.com/thumbr/0x380/b/1/4f4017c3cbb150b9f9aedf9b42707f0126a8874876f2454c2f33540eb90ad4/The-Eisenhower-Decision-Matrix-png.png?u=https%3A%2F%2Fluxafor.com%2Fwp-content%2Fuploads%2F2018%2F10%2FThe-Eisenhower-Decision-Matrix-png.png&q=0&b=1&p=0&a=0)
+This app is based on this matrix that can look like this : 
+![alt text](https://s1.qwant.com/thumbr/0x380/b/1/4f4017c3cbb150b9f9aedf9b42707f0126a8874876f2454c2f33540eb90ad4/The-Eisenhower-Decision-Matrix-png.png?u=https%3A%2F%2Fluxafor.com%2Fwp-content%2Fuploads%2F2018%2F10%2FThe-Eisenhower-Decision-Matrix-png.png&q=0&b=1&p=0&a=0)
+
+
+
 This matrix is divided in 4 parts : 
 - important and urgent case 
 - important and not urgent case 
 - not important and urgent case 
 - not important and not urgent case 
 
+![alt text](https://i.imgur.com/NSS8Kzk.png)
+
+
 At the center of the App, you can click on the Floating action button to see all the tasks. You can:
 - see all of the tasks 
 - filter the tasks 
 - search a specific task
 - add or edit a task 
+
+![alt text](https://i.imgur.com/LHMPrEF.png)
+
+
 
 Within the edit task layout, you can : 
 - mark the name
@@ -22,12 +32,18 @@ Within the edit task layout, you can :
 - delegate the task by sending a message to someone
 - add a little description to the task 
 
+![alt text](https://i.imgur.com/PcM7CFK.png)
+
+
+
 On the setting screen, you can : 
 - change the theme's colors of the matrix 
 - click on a switch button to enable notification
 - click on a switch button to use the Night Mode or the Light Mode
 - Kill the app and send to user on the main screen 
 - Send the user to a web page about the Time Management 
+
+![alt text](https://i.imgur.com/8GnxmzB.png)
 
 You will find in the four cases of the matrix, you can : 
 - see the tasks that belongs to the appropriate case
@@ -127,4 +143,3 @@ ESME SUDRIA LYON
 
 feedback for the course : 
 - give access of simple tutorials to students (even though they can find it on the web)
-- 
