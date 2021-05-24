@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".matrix.Settings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/text_settings_colors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change the colors of the Matrix " />
+
+        <Button
+            android:id="@+id/button_set_red_yellow_green_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change color Theme : red, yellow, green, white" />
+
+        <Button
+            android:id="@+id/button_set_red_pink_teal_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change color Theme : red, pink, teal, white" />
+
+        <Button
+            android:id="@+id/button_set_red_red_light_green_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change color Theme : red, red light, green, white" />
+
+        <TextView
+            android:id="@+id/text_settings_notifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n Notifications" />
+
+        <Switch
+            android:id="@+id/switch_enable_notifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enable notifications in App" />
+
+        <TextView
+            android:id="@+id/text_settings_dark_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n Night Mode " />
+
+        <Switch
+            android:id="@+id/switch_dark_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activate dark mode " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n Suicide the app" />
+
+        <Button
+            android:id="@+id/button_self_destruct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FA0202"
+            android:text="AUTO DESTRUCTION "
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\n Learn more about Eisenhower's matrix" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is an Eisenhower matrix ? "
+            android:id="@+id/button_learn_more_matrix"/>
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

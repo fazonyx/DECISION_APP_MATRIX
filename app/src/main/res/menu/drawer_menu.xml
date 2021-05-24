@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_IU"
+            android:icon="@drawable/ic_priority"
+            android:title="Important and Urgent" />
+        <item
+            android:id="@+id/nav_INU"
+            android:icon="@drawable/ic_baseline_timer_24"
+            android:title="Important and not Urgent" />
+        <item
+            android:id="@+id/nav_NIU"
+            android:icon="@drawable/ic_access_time_filled"
+            android:title="Not Important and Urgent" />
+        <item
+            android:id="@+id/nav_NINU"
+            android:icon="@drawable/ic_access_time"
+            android:title="Not Important and not Urgent" />
+    </group>
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_parameter"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_explanations"
+                android:title="How does it work ? "
+                android:icon="@drawable/ic_baseline_info_24"/>
+            <item
+                android:id="@+id/nav_share_app"
+                android:title="Share the App"
+                android:icon="@drawable/ic_share"/>
+
+        </menu>
+    </item>
+</menu>

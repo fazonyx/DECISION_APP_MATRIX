@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codinginflow.mvvmtodo">
+
+    <application
+        android:name=".ToDoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_decision"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_decision_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".matrix.Settings"></activity>
+        <activity android:name=".ui.matrixinterface.MatrixFragmentIU" />
+        <activity android:name=".ui.matrixinterface.MatrixFragmentINU" />
+        <activity android:name=".ui.matrixinterface.MatrixFragmentNINU" />
+        <activity android:name=".ui.matrixinterface.MatrixFragmentNIU" />
+        <activity android:name=".matrix.MainMatrix">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+
+</manifest>
